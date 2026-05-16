@@ -256,7 +256,7 @@ nav a:hover {
 .period-subtitle {
     font-size: 15px;
     color: var(--muted);
-    font-style: italic
+    font-style: italic;
 }
 
 .period-body-wrap {
