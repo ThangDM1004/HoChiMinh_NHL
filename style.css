@@ -627,3 +627,16 @@ footer strong {
         right: -8px
     }
 }
+
+.values-video {
+    background: #F0E9D6;
+    padding: 72px 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.values-video video{
+display: block;
+    margin: auto;
+}
