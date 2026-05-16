@@ -636,7 +636,33 @@ footer strong {
     align-items: center;
 }
 
-.values-video video{
-display: block;
-    margin: auto;
+.responsive-video{
+    width: 60%;
+    border-radius: 12px;
+}
+
+/* Nội dung */
+.intro{
+    width: 40%;
+}
+
+/* Responsive điện thoại */
+@media (max-width: 800px){
+
+    .values-video{
+        flex-direction: column;
+    }
+
+    .responsive-video{
+        width: 100%;
+    }
+
+    .intro{
+        width: 100%;
+        text-align: center;
+    }
+    .intro blockquote{
+        width: 75%;
+        margin-left: 15%;
+    }
 }
