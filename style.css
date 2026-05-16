@@ -647,7 +647,7 @@ footer strong {
 }
 
 /* Responsive điện thoại */
-@media (max-width: 800px){
+@media (max-width: 640px){
 
     .values-video{
         flex-direction: column;
